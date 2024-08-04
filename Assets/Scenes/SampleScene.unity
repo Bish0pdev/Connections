@@ -274,8 +274,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   entity_Prefab: {fileID: 5036629457416776931, guid: 2390295ca651a0d42bc9d873e571cc51, type: 3}
-  worldBounds: {fileID: 555847897}
+  worldBoundSize: {x: 9, y: 5}
+  entity_Color: {r: 0, g: 0, b: 0, a: 0}
+  connection_Width: 0.2
+  connection_Mat: {fileID: 2100000, guid: b9bd4ee37523bb81c9f34acd61455172, type: 2}
   start_amount: 10
+  size_Probability_Curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.007832082
+      value: 0.4893221
+      inSlope: 0.004702207
+      outSlope: 0.004702207
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.99606323
+      value: 0.49396896
+      inSlope: -1.5042642
+      outSlope: -1.5042642
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.17050281
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &555847896
 GameObject:
   m_ObjectHideFlags: 0
